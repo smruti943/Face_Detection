@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Face_Detection", "Face_Detection\Face_Detection.csproj", "{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Debug|x64.ActiveCfg = Debug|x64
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Debug|x64.Build.0 = Debug|x64
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Release|x64.ActiveCfg = Release|x64
+		{8D7B334E-9FA1-4FB3-886A-CB95F0EE228A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A56E35B3-421B-47EC-A5EA-8FFD6C853C18}
+	EndGlobalSection
+EndGlobal
