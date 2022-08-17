@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Emotion.Model;
+using Emotion.Model.BalticDataModel;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace Emotion.Controllers
+{
+    [ApiController]
+    [Route("/")]
+    public class ModuleController : ControllerBase
+    {
+        [HttpPost]
+        [Route("token")]
+        //endpoint REST
+
+        public IActionResult ProcessTokenMessage([FromBody] object value)
+        {
+            try
+            {
+                //Parse token 
+                //var token = JsonConvert.DeserializeObject<XInputTokenMessage>(value?.ToString());
+
+                XInputTokenMessage token = JsonConvert.DeserializeObject<XInputTokenMessage>(value.ToString());
+
+                //Read pin configuration from file
+                //var pinConfig = System.IO.File.ReadAllText(Environment.GetEnvironmentVariable("SYS_PIN_CONFIG_FILE_PATH"));
+                var pinConfig = System.IO.File.ReadAllText("pin_Examples.json");
+                var pins = JsonConvert.DeserializeObject<List<PinMetadata>>(pinConfig);
+                var pinInputMetadata = new[] { pins[0], pins[1] };
+
+                // ###############################################################################################################
+                // # Switch-case for preforming different calculation for different input pins.                                  #
+                // # Change according to a number of INPUT pins.                                                                 #
+                // ###############################################################################################################
+
+                if (token.PinName == pinInputMetadata[0].PinName)
+                {
+
+                    // Implementation of data_processing function or equivalent
+                    // should be done in separate file according to the example
+                    new Task(() =>
+                        ComputationModule.DataProcessing1(token)).Start();
+                }
+                //else if (token.pinName == pinInputMetadata[1].PinName)
+                //{
+                //    new Task(() =>
+                //        ComputationModule.DataProcessing2(token)).Start();
+                //}
+                else
+                {
+                    return BadRequest();
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+            return Ok();
+        }
+
+        // Endpoint responsible for providing current job status.
+        [HttpGet]
+        [Route("status")]
+        public IActionResult GetStatus()
+        {
+            return Ok(ComputationModule.JobStatus);
+        }
+    }
+}
