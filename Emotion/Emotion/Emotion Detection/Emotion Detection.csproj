@@ -1,0 +1,183 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Emotion</RootNamespace>
+    <UserSecretsId>94adc7c3-6f05-45d6-83e2-56546ee1b88a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\publish\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\Computation Module Example.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\Computation Module Example.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\pin_Examples.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\RageAssetManager.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\publish\token.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\RageAssetManager.xml" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.deps.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.runtimeconfig.dev.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.runtimeconfig.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.StaticWebAssets.xml" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\pin_Examples.json" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\RageAssetManager.xml" />
+    <Content Include="bin\x64\Debug\netcoreapp3.1\token.json" />
+    <Content Include="bin\x64\Debug\publish\appsettings.Development.json" />
+    <Content Include="bin\x64\Debug\publish\appsettings.json" />
+    <Content Include="bin\x64\Debug\publish\Computation Module Example.deps.json" />
+    <Content Include="bin\x64\Debug\publish\Computation Module Example.runtimeconfig.json" />
+    <Content Include="bin\x64\Debug\publish\pin_Examples.json" />
+    <Content Include="bin\x64\Debug\publish\RageAssetManager.xml" />
+    <Content Include="bin\x64\Debug\publish\token.json" />
+    <Content Include="LandMarkFiles\FURIA Fuzzy Logic Rules.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Computation Module Example.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Computation Module Example.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Computation Module Example.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Computation Module Example.StaticWebAssets.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\pin_Examples.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\token.json" />
+    <Content Include="bin\Debug\RageAssetManager.xml" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\Computation Module Example.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\Computation Module Example.runtimeconfig.dev.json" />
+    <Content Include="bin\Release\netcoreapp3.1\Computation Module Example.runtimeconfig.json" />
+    <Content Include="bin\Release\netcoreapp3.1\pin_Examples.json" />
+    <Content Include="bin\Release\netcoreapp3.1\token.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\DlibDotNetNative.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DlibDotNetNativeDnn.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Computation Module Example.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Computation Module Example.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\Computation Module Example.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\DnsClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MongoDB.Bson.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MongoDB.Driver.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\Computation Module Example.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\Computation Module Example.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\Computation Module Example.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\DlibDotNetNative.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\DlibDotNetNativeDnn.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\dlibwrapper_x64.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\DnsClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\kernel32.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\MongoDB.Bson.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\MongoDB.Driver.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\MongoDB.Driver.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\RageAssetManager.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\RageAssetManager.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\win\native\libzstd.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\win\native\snappy32.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\runtimes\win\native\snappy64.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\SharpCompress.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\publish\web.config" />
+    <None Include="bin\Debug\netcoreapp3.1\RageAssetManager.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\RageAssetManager.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpCompress.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\RageAssetManager.dll" />
+    <None Include="bin\Debug\RageAssetManager.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\dlibwrapper_x64.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Computation Module Example.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Computation Module Example.exe" />
+    <None Include="bin\Release\netcoreapp3.1\Computation Module Example.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\DnsClient.dll" />
+    <None Include="bin\Release\netcoreapp3.1\MongoDB.Bson.dll" />
+    <None Include="bin\Release\netcoreapp3.1\MongoDB.Driver.Core.dll" />
+    <None Include="bin\Release\netcoreapp3.1\MongoDB.Driver.dll" />
+    <None Include="bin\Release\netcoreapp3.1\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\native\libzstd.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\native\snappy32.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\native\snappy64.dll" />
+    <None Include="bin\Release\netcoreapp3.1\SharpCompress.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.exe" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\Computation Module Example.pdb" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\dlibwrapper_x64.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\DnsClient.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\MongoDB.Bson.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\MongoDB.Driver.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\RageAssetManager.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\RageAssetManager.pdb" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\SharpCompress.dll" />
+    <None Include="bin\x64\Debug\netcoreapp3.1\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\publish\Computation Module Example.dll" />
+    <None Include="bin\x64\Debug\publish\Computation Module Example.exe" />
+    <None Include="bin\x64\Debug\publish\Computation Module Example.pdb" />
+    <None Include="bin\x64\Debug\publish\DlibDotNetNative.dll" />
+    <None Include="bin\x64\Debug\publish\DlibDotNetNativeDnn.dll" />
+    <None Include="bin\x64\Debug\publish\dlibwrapper_x64.dll" />
+    <None Include="bin\x64\Debug\publish\DnsClient.dll" />
+    <None Include="bin\x64\Debug\publish\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\x64\Debug\publish\MongoDB.Bson.dll" />
+    <None Include="bin\x64\Debug\publish\MongoDB.Driver.Core.dll" />
+    <None Include="bin\x64\Debug\publish\MongoDB.Driver.dll" />
+    <None Include="bin\x64\Debug\publish\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\x64\Debug\publish\Newtonsoft.Json.dll" />
+    <None Include="bin\x64\Debug\publish\RageAssetManager.dll" />
+    <None Include="bin\x64\Debug\publish\RageAssetManager.pdb" />
+    <None Include="bin\x64\Debug\publish\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\publish\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\x64\Debug\publish\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\publish\runtimes\win\native\libzstd.dll" />
+    <None Include="bin\x64\Debug\publish\runtimes\win\native\snappy32.dll" />
+    <None Include="bin\x64\Debug\publish\runtimes\win\native\snappy64.dll" />
+    <None Include="bin\x64\Debug\publish\SharpCompress.dll" />
+    <None Include="bin\x64\Debug\publish\System.Drawing.Common.dll" />
+    <None Include="bin\x64\Debug\publish\web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RageAssetManager">
+      <HintPath>bin\Debug\RageAssetManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
