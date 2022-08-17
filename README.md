@@ -62,7 +62,7 @@ detected faces.
 **Final application**
 
 After we finished our application, it was tested on the BalticLSC system. After many attempts, we managed to fix all the problems, and the application returned processed images with marked faces and a JSON file with detected emotions.
-Figure 1 represents created by authors Emotion Detection application in CAL language. It describes the data flow between all modules. All of the modules have one input, and only the last has two outputs to return both processed photo
+Figure 1 represents created by Emotion Detection application in CAL language. It describes the data flow between all modules. All of the modules have one input, and only the last has two outputs to return both processed photo
 and JSON file with results.
 
 
