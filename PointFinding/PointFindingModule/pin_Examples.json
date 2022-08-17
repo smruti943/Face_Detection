@@ -1,0 +1,26 @@
+[
+    {
+        "PinName": "Input",
+        "PinType": "input",
+        "AccessType": "MongoDB",
+        "DataMultiplicity": "single",
+        "TokenMultiplicity": "single",
+        "AccessCredential": {
+            "User": "user",
+            "Password": "userprojektbaltic",
+            "Cluster": "researchprojectdatabase",
+            "Database": "ResearchProjectDatabase"
+        }
+    },
+    {
+        "PinName": "Output",
+        "PinType": "output",
+        "AccessType": "MongoDB",
+        "AccessCredential": {
+            "User": "user",
+            "Password": "userprojektbaltic",
+            "Cluster": "researchprojectdatabase",
+            "Database": "ResearchProjectDatabase"
+        }
+    }
+] 
