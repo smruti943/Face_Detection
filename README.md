@@ -1,3 +1,6 @@
+*****WEB APPLICATION NAME:MoodRecognizer*****
+
+
 ***Creating MoodRecognizer web application in BalitcLSc by using C# ,.Net core3.1,CAL,Docker,REST API,MongoDB,Dockerhub***
 
 
