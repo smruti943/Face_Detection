@@ -5,10 +5,10 @@
 
 
 This is about my Research project details.
-created application in BalticLsc.According to CAL language architecture plan module has been created.
+I created application in BalticLsc.According to CAL language architecture plan, module has been created.
 
 Deployed in this below Balticlsc environment. 
-https://balticlsc.iem.pw.edu.pl/#/store
+https://www.balticlsc.eu/
 
 **Introduction:**
 The project’s goal was to create a simple application in the BalticLSC environment.The project was aimed to research the difficulty of
