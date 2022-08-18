@@ -5,8 +5,9 @@
 
 
 This is about my Research project details.
+created application in BalticLsc.According to CAL language architecture plan module has been created.
 
-Deployed in this below Balticlsc environment.
+Deployed in this below Balticlsc environment. 
 https://balticlsc.iem.pw.edu.pl/#/store
 
 **Introduction:**
@@ -62,7 +63,6 @@ detected faces.
 **Final application**
 
 After we finished our application, it was tested on the BalticLSC system. After many attempts, we managed to fix all the problems, and the application returned processed images with marked faces and a JSON file with detected emotions.
-Figure 1 represents created by Emotion Detection application in CAL language. It describes the data flow between all modules. All of the modules have one input, and only the last has two outputs to return both processed photo
-and JSON file with results.
+Figure 1 represents created by Emotion Detection application in CAL language. It describes the data flow between all modules. All of the modules have one input, and only the last has two outputs to return both processed photo and JSON file with results.
 
 
